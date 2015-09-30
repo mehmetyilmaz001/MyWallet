@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:minWidth="1000dp"
+    android:minHeight="600dp"
+    android:padding="13dp"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/account_type_label"
+        />
+
+
+    <RadioGroup
+        android:id="@+id/add_money_dialog_account_type_radio_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <RadioButton
+            android:id="@+id/add_money_dialog_rd_cash"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="@string/cash"
+            android:checked="true"
+            />
+
+        <RadioButton
+            android:id="@+id/add_money_dialog_rd_bank"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="@string/bank"
+            />
+
+    </RadioGroup>
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/money_come_from_label"
+        android:id="@+id/add_money_dialog_mon"
+        android:layout_marginTop="15dp"
+
+        />
+
+    <Spinner
+
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/add_money_dialog_money_type"
+        android:layout_gravity="center_horizontal"
+        android:spinnerMode="dialog"
+        android:entries="@array/entry_money_add_type"
+        />
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/currency_label"
+        android:id="@+id/add_money_currency_label"
+        android:layout_marginTop="15dp"
+        />
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/add_money_dialog_currency"
+        android:layout_gravity="center_horizontal"
+        android:spinnerMode="dialog"
+        android:entries="@array/entry_currency"
+        />
+
+
+
+    <EditText
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberSigned"
+        android:ems="10"
+        android:id="@+id/add_money_dialog_amount"
+        android:layout_gravity="center_horizontal"
+        android:hint="@string/amount_label"
+        />
+
+
+    <EditText
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:ems="10"
+        android:id="@+id/add_money_dialog_detail"
+        android:layout_gravity="center_horizontal"
+        android:hint="@string/detail_label"
+        />
+
+
+
+    <Button
+        android:id="@+id/add_money_dialog_add_money_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/add_money"
+        android:background="@color/green"
+        android:textColor="@color/white"
+        android:layout_marginTop="18dp"
+        />
+
+    <Button
+        android:id="@+id/add_money_dialog_cancel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/cancel"
+        android:background="@color/grey"
+        android:textColor="@color/white"
+        android:layout_marginTop="20dp"
+        />
+
+
+</LinearLayout>

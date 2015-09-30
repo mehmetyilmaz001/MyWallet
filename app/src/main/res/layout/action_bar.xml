@@ -1,0 +1,67 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/action_logo"
+        android:background="@drawable/ic_logo"
+        android:layout_centerVertical="true"
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_centerVertical="true"
+        android:gravity="center"
+        android:layout_marginLeft="50dp"
+        >
+
+        <LinearLayout
+            android:layout_width="125dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/action_bar_main_btn"
+                style="@style/ActionBarButtonWhite"
+                android:text="@string/title_activity_main"
+                android:layout_width="match_parent" />
+
+            <View
+                android:id="@+id/action_bar_main_line"
+                android:layout_width="match_parent"
+                android:layout_height="3dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="125dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/action_bar_transactions_btn"
+                style="@style/ActionBarButtonWhite"
+                android:text="@string/title_activity_transactions"
+                android:layout_width="match_parent"
+                />
+            <View
+                android:id="@+id/action_bar_transactions_line"
+                android:layout_width="match_parent"
+                android:layout_height="3dp"/>
+
+        </LinearLayout>
+
+
+
+
+
+    </LinearLayout>
+</RelativeLayout>

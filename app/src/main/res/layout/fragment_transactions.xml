@@ -1,0 +1,250 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.ninjakod.mehmetyilmaz.mywallet.TransactionsActivity.TransactionsFragment"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:id="@+id/transactions_filter_linear_layout"
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:orientation="vertical"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:background="@color/blue">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            >
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="@string/account_type_label"
+                    android:textSize="@dimen/transactions_filter_text"
+                    android:textColor="@color/white"
+                    />
+
+
+                <RadioGroup
+                    android:id="@+id/transactions_account_type_radio_group"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+
+                    >
+
+                    <RadioButton
+                        android:id="@+id/transactions_rd_cash"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:text="@string/cash"
+                        android:checked="true"
+                        android:textSize="@dimen/transactions_filter_text"
+                        android:textColor="@color/white"
+                        style="@style/RadioButtonWhite"
+                        />
+
+                    <RadioButton
+                        android:id="@+id/transactions_rd_bank"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:text="@string/bank"
+                        android:textSize="@dimen/transactions_filter_text"
+                        android:textColor="@color/white"
+                        style="@style/RadioButtonWhite"
+                        />
+
+                </RadioGroup>
+
+            </LinearLayout><!-- Money Add Type-->
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/currency_label"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textSize="@dimen/transactions_filter_text"
+                    android:textColor="@color/white"
+                    />
+
+                <Spinner
+                    android:id="@+id/transactions_spinner_currency"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:entries="@array/entry_currency"
+                    android:layout_gravity="right"
+                    android:gravity="right|end"
+                    android:textSize="@dimen/transactions_filter_text"
+                    android:textColor="@color/white"
+                    android:spinnerStyle="@style/DropDownColor"
+                    android:background="@drawable/abc_spinner_mtrl_am_alpha"
+                    >
+
+                </Spinner>
+            </LinearLayout><!-- Currency -->
+
+        </LinearLayout><!-- First Line-->
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/action_bar_active_item"
+            android:layout_marginTop="0dp"
+            android:layout_marginBottom="3dp"
+            >
+        </View>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_weight="1"
+            android:layout_marginTop="5dp"
+            >
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="@string/money_type_label"
+                    android:textSize="@dimen/transactions_filter_text"
+                    android:textColor="@color/white"
+                    />
+
+
+                <RadioGroup
+                    android:id="@+id/transactions_money_type_radio_group"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="0dp"
+                    >
+
+                    <RadioButton
+                        android:id="@+id/transactions_rd_add"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:text="@string/add"
+                        android:textSize="@dimen/transactions_filter_text"
+                        android:textColor="@color/white"
+                        style="@style/RadioButtonWhite"
+                        />
+
+                    <RadioButton
+                        android:id="@+id/transactions_rd_sub"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:text="@string/subtract"
+                        android:textSize="@dimen/transactions_filter_text"
+                        android:textColor="@color/white"
+                        style="@style/RadioButtonWhite"
+                        />
+
+                </RadioGroup>
+
+            </LinearLayout><!-- Money Type-->
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/entry_date_label_all_dates"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textSize="@dimen/transactions_filter_text"
+                    android:textColor="@color/white"
+                    />
+
+                <Spinner
+                    android:id="@+id/transactions_spinner_date"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:entries="@array/entry_date"
+
+                    android:layout_gravity="right"
+                    android:gravity="right|end"
+                    android:textSize="@dimen/transactions_filter_text"
+                    android:spinnerStyle="@style/DropDownColor"
+                    android:background="@drawable/abc_spinner_mtrl_am_alpha">
+                </Spinner>
+            </LinearLayout><!-- Date -->
+
+
+        </LinearLayout><!-- Second Line -->
+
+
+    </LinearLayout><!-- Filter -->
+
+
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+
+    <com.github.ksoichiro.android.observablescrollview.ObservableListView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/transactions_list_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="45dp"
+        />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/transactions_total_textView"
+        android:text="@string/total"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingBottom="5dp"
+        android:paddingTop="5dp"
+        android:textSize="@dimen/abc_text_size_medium_material"
+        android:background="@color/green"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:layout_alignParentBottom="true"
+        />
+
+ </RelativeLayout>
+
+
+</LinearLayout>

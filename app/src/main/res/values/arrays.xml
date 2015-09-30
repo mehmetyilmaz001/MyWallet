@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="entry_money_add_type">
+        <item>@string/entry_money_adding_type_label_income</item>
+        <item>@string/entry_money_adding_type_label_extra</item>
+        <item>@string/entry_money_adding_type_label_other</item>
+    </string-array>
+    <string-array name="entry_money_add_type_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
+    <string-array name="entry_money_spend_type">
+        <item>@string/entry_money_spend_type_label_rent</item>
+        <item>@string/entry_money_spend_type_label_bill</item>
+        <item>@string/entry_money_spend_type_label_car</item>
+        <item>@string/entry_money_spend_type_label_shopping</item>
+        <item>@string/entry_money_spend_type_label_transport</item>
+        <item>@string/entry_money_spend_type_label_education</item>
+        <item>@string/entry_money_spend_type_label_health</item>
+        <item>@string/entry_money_spend_type_label_entertainment</item>
+        <item>@string/entry_money_spend_type_label_holiday</item>
+        <item>@string/entry_money_spend_type_label_aid</item>
+        <item>@string/entry_money_spend_type_label_other</item>
+    </string-array>
+    <string-array name="entry_money_spend_type_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+    </string-array>
+
+    <string-array name="entry_currency">
+        <item>@string/entry_currency_label_tl</item>
+        <item>@string/entry_currency_label_dollar</item>
+        <item>@string/entry_currency_label_euro</item>
+    </string-array>
+    <string-array name="entry_currency_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
+    <string-array name="entry_date">
+        <item>@string/entry_date_label_last_one_month</item>
+        <item>@string/entry_date_label_last_six_month</item>
+        <item>@string/entry_date_label_last_one_year</item>
+        <item>@string/entry_date_label_all_dates</item>
+    </string-array>
+    <string-array name="entry_date_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>99</item>
+    </string-array>
+
+</resources>

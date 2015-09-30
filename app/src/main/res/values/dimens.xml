@@ -1,0 +1,8 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">11dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="transactions_filter_text">12sp</dimen>
+    <dimen name="transactions_list_date_day">27sp</dimen>
+    <dimen name="text_size_small">14.0sp</dimen>
+</resources>

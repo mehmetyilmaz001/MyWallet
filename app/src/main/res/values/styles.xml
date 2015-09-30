@@ -1,0 +1,72 @@
+<resources>
+
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="@style/Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/mywallet_blue</item>
+        <item name="colorPrimaryDark">@color/mywallet_dark_blue</item>
+    </style>
+
+    <!-- Main activity theme. -->
+    <style name="MyWalletTheme" parent="AppTheme">
+        <item name="actionBarStyle">@style/ActionBar.Solid.MyWallet.NoTitle</item>
+    </style>
+
+    <!-- Settings activity theme. -->
+    <style name="SettingsTheme" parent="AppTheme">
+    </style>
+
+    <!-- main activity action bar styles -->
+    <style name="ActionBar.Solid.MyWallet.NoTitle" parent="@style/Widget.AppCompat.Light.ActionBar.Solid.Inverse">
+        <item name="displayOptions">useLogo|showHome</item>
+        <item name="logo">@drawable/ic_logo</item>
+        <item name="actionBarSize">250dp</item>
+        <item name="android:actionBarSize">250dp</item>
+
+    </style>
+
+
+    <style name="DropDownColor">
+        <item name="android:dropDownSelector">@color/white</item>
+
+    </style>
+
+
+
+    <!-- Style for forecast listview -->
+    <style name="ForecastListStyle">
+        <!-- Here it's a stub.  In screens of sufficient width, this style includes modifications
+        for two-pane layout -->
+    </style>
+
+    <style name="SubMoney">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:background">@color/red</item>
+        <item name="android:textViewStyle">@style/SubMoneyTextViewStyle</item>
+    </style>
+
+    <style name="SubMoneyTextViewStyle">
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="ActionBarButton">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@null</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textSize">@dimen/text_size_small</item>
+        <item name="android:padding">4dp</item>
+    </style>
+
+    <style name="ActionBarButtonWhite" parent="@style/ActionBarButton">
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="RadioButtonWhite" parent="@android:style/Widget.CompoundButton.RadioButton">
+        <item name="android:button">@drawable/apptheme_btn_radio_holo_light</item>
+    </style>
+
+
+
+</resources>

@@ -1,0 +1,65 @@
+<resources>
+    <string name="app_name">Cüzdanım</string>
+    <string name="financial_status">Finansal Durum</string>
+
+    <string name="cash">Nakit</string>
+    <string name="bank">Banka</string>
+
+    <string name="total">Toplam</string>
+
+    <string name="add_money">(+) Para Ekle</string>
+    <string name="subtract_money">(-) Para Harca</string>
+
+    <string name="add">Eklenen</string>
+    <string name="subtract">Harcanan</string>
+
+    <string name="entry_money_adding_type_label_income">Maaş</string>
+    <string name="entry_money_adding_type_label_extra">Ek İş</string>
+    <string name="entry_money_adding_type_label_other">Diğer</string>
+
+    <string name="entry_money_spend_type_label_rent">Ev Kirası</string>
+    <string name="entry_money_spend_type_label_bill">Fatura Ödeme</string>
+    <string name="entry_money_spend_type_label_car">Araba Giderleri</string>
+    <string name="entry_money_spend_type_label_shopping">Alışveriş</string>
+    <string name="entry_money_spend_type_label_transport">Ulaşım</string>
+    <string name="entry_money_spend_type_label_education">Eğitim</string>
+    <string name="entry_money_spend_type_label_health">Sağlık</string>
+    <string name="entry_money_spend_type_label_entertainment">Eğlence</string>
+    <string name="entry_money_spend_type_label_holiday">Tatil</string>
+    <string name="entry_money_spend_type_label_aid">Yardım</string>
+    <string name="entry_money_spend_type_label_other">Diğer</string>
+
+    <string name="currency_label">Para Birimi</string>
+    <string name="amount_label">Tutar</string>
+
+    <string name="entry_currency_label_tl">Türk Lirası</string>
+    <string name="entry_currency_label_dollar">Amerikan Doları</string>
+    <string name="entry_currency_label_euro">EURO</string>
+
+    <string name="entry_date_label_last_one_month">Son 1 Ay</string>
+    <string name="entry_date_label_last_six_month">Son 6 Ay </string>
+    <string name="entry_date_label_last_one_year">Son 1 Yıl</string>
+    <string name="entry_date_label_all_dates">Hepsi</string>
+
+    <string name="add_money_dialog_title">Para Ekle</string>
+    <string name="sub_money_dialog_title">Para Harca</string>
+
+    <string name="money_come_from_label">Para Nereden Geldi</string>
+    <string name="money_type_label">Para Tipi</string>
+
+    <string name="account_type_label">Hesap Tipi</string>
+    <string name="detail_label">Açıklama</string>
+
+    <string name="action_settings">Ayarlar</string>
+    <string name="cancel">İptal</string>
+
+    <string name="amount_cannot_be_null">Tutar boş olamaz!</string>
+
+    <string name="title_activity_transactions">İşlemler</string>
+    <string name="title_activity_main">Ana Ekran</string>
+    <string name="hello_world"></string>
+
+    <string name="pref_title_home_screen_currency">Ana Ekran Para Birimi</string>
+    <string name="pref_title_home_screen_currency_summary">Ana ekranda görüntülenmesini istediğiniz para birimi seçiniz</string>
+
+</resources>

@@ -1,0 +1,164 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context=".MainActivity$PlaceholderFragment"
+    android:tag="main_fragment"
+    >
+
+    <TextView android:text="@string/financial_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/cyan"
+        android:textSize="@dimen/abc_text_size_headline_material"
+        android:layout_marginTop="20dp"
+        />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:background="@color/cyan" >
+    </View>
+
+
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:orientation="vertical"
+         android:padding="15dp"
+         >
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="25dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/cash"
+                android:textColor="@color/green"
+                android:textSize="@dimen/abc_text_size_title_material"
+                android:id="@+id/main_total_cash_amount_label"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1500 TL"
+                android:textColor="@color/green"
+                android:layout_marginLeft="3dp"
+                android:gravity="right"
+                android:textSize="@dimen/abc_text_size_title_material"
+                android:id="@+id/main_total_cash_amount"
+                />
+
+         </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/cyan_ligth"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"
+            >
+        </View>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/bank"
+                android:textColor="@color/grey"
+                android:textSize="@dimen/abc_text_size_title_material"
+                android:id="@+id/main_total_bank_amount_label"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1500 TL"
+                android:textColor="@color/grey"
+                android:layout_marginLeft="3dp"
+                android:gravity="right"
+                android:textSize="@dimen/abc_text_size_title_material"
+                android:id="@+id/main_total_bank_amount"
+                />
+
+        </LinearLayout>
+   </LinearLayout><!-- Featured Area -->
+     <LinearLayout
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:orientation="vertical"
+         android:gravity="center"
+         android:layout_gravity="center"
+         android:layout_marginTop="20dp"
+         >
+
+         <TextView
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:text="@string/total"
+             android:textColor="@color/cyan"
+             android:textSize="35dp"
+             android:gravity="center"
+             />
+
+         <TextView
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:text="30000 TL"
+             android:textColor="@color/green"
+             android:textSize="40dp"
+             android:layout_marginTop="5dp"
+             android:gravity="center"
+             android:id="@+id/main_total_amount"
+             />
+      </LinearLayout><!-- Total Summary Area -->
+     <LinearLayout
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:orientation="horizontal"
+         android:layout_marginTop="50dp"
+         android:layout_gravity="center"
+         android:baselineAligned="false"
+         >
+
+         <Button
+             android:id="@+id/btn_add_money"
+             android:layout_width="110dp"
+             android:layout_height="70dp"
+             android:text="@string/add_money"
+             android:layout_marginRight="15dp"
+             android:background="@color/material_deep_teal_500"
+             android:textColor="@color/white"
+             android:onClick="showAddMoneyDialog"
+             android:padding="3dp"
+             android:singleLine="false" />
+         <Button
+             android:layout_width="110dp"
+             android:layout_height="70dp"
+             android:text="@string/subtract_money"
+             android:layout_marginLeft="15dp"
+             android:background="@color/red"
+             android:textColor="@color/white"
+             android:singleLine="false"
+             android:padding="3dp"
+             android:id="@+id/btn_sub_money"
+             android:onClick="showSubMoneyDialog"
+             />
+     </LinearLayout><!--Shortcut Buttons Area-->
+
+</LinearLayout>

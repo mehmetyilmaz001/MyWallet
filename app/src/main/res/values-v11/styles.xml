@@ -1,0 +1,9 @@
+<resources>
+
+    <!-- Holo.Light is supported in api 11 -->
+    <style name="AppBaseTheme" parent="android:Theme.Holo.Light">
+        <!-- Android api 11 - 13 -->
+
+    </style>
+
+</resources>

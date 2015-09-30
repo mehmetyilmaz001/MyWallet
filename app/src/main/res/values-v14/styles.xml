@@ -1,0 +1,7 @@
+<resources>
+    <style name="AppBaseTheme" parent="android:Theme.Holo.Light.DarkActionBar">
+        <!-- Android api 14+ -->
+
+    </style>
+
+</resources>

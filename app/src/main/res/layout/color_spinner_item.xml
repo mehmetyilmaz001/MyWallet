@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@color/blue"
+    android:textColor="@color/white"
+    android:textSize="@dimen/transactions_filter_text"
+    android:padding="10dp"
+    android:text="deneme"
+    android:layout_gravity="center"
+    android:gravity="left"
+    android:layout_height="?android:listPreferredItemHeightSmall"
+    />

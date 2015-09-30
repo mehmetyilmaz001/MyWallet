@@ -1,0 +1,26 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- NOTE: Hide buttons to simplify the UI. Users can touch outside the dialog to
+         dismiss it. -->
+    <!-- NOTE: ListPreference's summary should be set to its value by the activity code. -->
+    <ListPreference
+        android:key="@string/pref_currency_key"
+        android:title="@string/pref_title_home_screen_currency"
+        android:defaultValue="-1"
+        android:entries="@array/entry_currency"
+        android:entryValues="@array/entry_currency_values"
+        android:negativeButtonText="@null"
+        android:positiveButtonText="@null"
+        android:summary="Choose which currency format will be shown on the main screen"
+        />
+
+    <!--<ListPreference
+        android:key="pref_language"
+        android:title="@string/pref_title_home_screen_currency"
+        android:defaultValue="-1"
+        android:entries="@array/entry_currency"
+        android:entryValues="@array/entry_currency_values"
+        android:negativeButtonText="@null"
+        android:positiveButtonText="@null" />-->
+
+</PreferenceScreen>

@@ -1,0 +1,78 @@
+<resources>
+    <string name="app_name">My Wallet</string>
+    <string name="financial_status">Financial Status</string>
+    <string name="cash">Cash</string><string name="total">Total</string>
+    <string name="bank">Bank</string>
+
+    <string name="add_money">(+) Add Money</string>
+    <string name="subtract_money">(-) Subtract Money</string>
+
+    <string name="add">Add</string>
+    <string name="subtract">Subtract</string>
+
+<!-- ENTRIES -->
+    <string name="entry_money_adding_type_label_income">Income</string>
+    <string name="entry_money_adding_type_label_extra">Extra Work</string>
+    <string name="entry_money_adding_type_label_other">Other</string>
+
+    <string name="entry_money_spend_type_label_rent">Home Rentals</string>
+    <string name="entry_money_spend_type_label_bill">Bill Payment</string>
+    <string name="entry_money_spend_type_label_car">Car Expenses</string>
+    <string name="entry_money_spend_type_label_shopping">Shopping</string>
+    <string name="entry_money_spend_type_label_transport">Transport</string>
+    <string name="entry_money_spend_type_label_education">Education</string>
+    <string name="entry_money_spend_type_label_health">Health</string>
+    <string name="entry_money_spend_type_label_entertainment">Entertainment</string>
+    <string name="entry_money_spend_type_label_holiday">Holiday</string>
+    <string name="entry_money_spend_type_label_aid">Aid</string>
+    <string name="entry_money_spend_type_label_other">Other</string>
+
+    <string name="entry_currency_label_tl">Turkish Lira</string>
+    <string name="entry_currency_label_dollar">USD Dollar</string>
+    <string name="entry_currency_label_euro">EURO</string>
+
+    <string name="entry_date_label_last_one_month">Last One Month</string>
+    <string name="entry_date_label_last_six_month">Last Six Months</string>
+    <string name="entry_date_label_last_one_year">Last One Year</string>
+    <string name="entry_date_label_all_dates">All Dates</string>
+<!-- ENTRIES -->
+
+    <string name="currency_label">Currency</string>
+    <string name="amount_label">Amount</string>
+
+
+
+
+
+
+    <string name="add_money_dialog_title">Add Money</string>
+    <string name="sub_money_dialog_title">Subtract Money</string>
+    <string name="money_come_from_label">Money come from</string>
+    <string name="money_type_label">Money Type</string>
+
+    <string name="account_type_label">Account Type</string>
+    <string name="detail_label">Detail</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_show_data" translatable="false">ShowData</string>
+
+    <string name="cancel">Cancel</string>
+    <string name="title_activity_welcome" translatable="false">Welcome</string>
+    <string name="amount_cannot_be_null">Amount can not be null!</string>
+
+
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_transactions">Transactions</string>
+    <string name="title_activity_main">Main</string>
+
+    <string name="pref_title_home_screen_currency">Home Screen Currency</string>
+    <string name="pref_title_home_screen_currency_summary">Choose which currency format will be shown on the main screen</string>
+
+
+    <string name="pref_currency_key" translatable="false">currency</string>
+    <string name="pref_currency_default" translatable="false">0</string>
+    <string name="title_activity_transaction_detail" translatable="false">TransactionDetailActivity</string>
+
+
+
+</resources>
